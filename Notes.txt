@@ -1,0 +1,22 @@
+// To Create database and table use below query or you can use code first approach i've also added the migration file just need to update the database
+CREATE DATABASE Roster; 
+Use
+Roster
+CREATE TABLE Members(
+    ID int NOT NULL,
+    FullName varchar(255) NOT NULL,
+    GroupName varchar(255),
+    Age int,
+    PRIMARY KEY (ID)
+);
+
+//Import below data in Postman to test 
+
+curl --location --request POST 'https://localhost:44326/RosterApi/create' \
+--header 'Authorization: Basic QmF0TWFuMTIzOmhlTE9nZW45Mg==' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "FullName" : "Jhon Park",
+    "GroupName": "Avenger",
+    "Age":23
+}'
