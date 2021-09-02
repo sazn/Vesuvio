@@ -9,6 +9,12 @@ CREATE TABLE Members(
     Age int,
     PRIMARY KEY (ID)
 );
+CREATE TABLE DemoUsers(
+    ID int NOT NULL,
+    Username varchar(255) NOT NULL,
+    Password varchar(255),
+    PRIMARY KEY (ID)
+);
 
 //Import below data in Postman to test 
 
