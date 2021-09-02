@@ -9,7 +9,7 @@ CREATE TABLE Members(
     Age int,
     PRIMARY KEY (ID)
 );
-CREATE TABLE DemoUsers(
+CREATE TABLE Users(
     ID int NOT NULL,
     Username varchar(255) NOT NULL,
     Password varchar(255),
