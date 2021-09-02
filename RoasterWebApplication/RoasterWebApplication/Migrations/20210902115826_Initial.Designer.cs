@@ -9,8 +9,8 @@ using RoasterWebApplication.Models;
 namespace RoasterWebApplication.Migrations
 {
     [DbContext(typeof(RosterDBContext))]
-    [Migration("20210902104834_add-migration")]
-    partial class addmigration
+    [Migration("20210902115826_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

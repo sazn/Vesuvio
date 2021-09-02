@@ -9435,11 +9435,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sazn_\\Downloads\\Vesuvio Task\\RoasterWebApplication\\RoasterWebApplication\\RoasterWebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\sazn_\\Desktop\\Task\\Vesuvio\\RoasterWebApplication\\RoasterWebApplication\\RoasterWebApplication.csproj",
       "projectName": "RoasterWebApplication",
-      "projectPath": "C:\\Users\\sazn_\\Downloads\\Vesuvio Task\\RoasterWebApplication\\RoasterWebApplication\\RoasterWebApplication.csproj",
+      "projectPath": "C:\\Users\\sazn_\\Desktop\\Task\\Vesuvio\\RoasterWebApplication\\RoasterWebApplication\\RoasterWebApplication.csproj",
       "packagesPath": "C:\\Users\\sazn_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sazn_\\Downloads\\Vesuvio Task\\RoasterWebApplication\\RoasterWebApplication\\obj\\",
+      "outputPath": "C:\\Users\\sazn_\\Desktop\\Task\\Vesuvio\\RoasterWebApplication\\RoasterWebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sazn_\\AppData\\Roaming\\NuGet\\NuGet.Config",

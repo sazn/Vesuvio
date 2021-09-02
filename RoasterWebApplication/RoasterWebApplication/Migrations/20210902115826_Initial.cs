@@ -2,7 +2,7 @@
 
 namespace RoasterWebApplication.Migrations
 {
-    public partial class addmigration : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
