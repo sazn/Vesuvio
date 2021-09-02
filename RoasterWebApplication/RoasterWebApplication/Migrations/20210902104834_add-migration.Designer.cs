@@ -9,8 +9,8 @@ using RoasterWebApplication.Models;
 namespace RoasterWebApplication.Migrations
 {
     [DbContext(typeof(RosterDBContext))]
-    [Migration("20210902041713_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20210902104834_add-migration")]
+    partial class addmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -41,6 +41,24 @@ namespace RoasterWebApplication.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Members");
+                });
+
+            modelBuilder.Entity("RoasterWebApplication.Models.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

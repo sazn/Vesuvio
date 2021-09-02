@@ -12,5 +12,6 @@ namespace RoasterWebApplication.Models
         {
         }
         public virtual DbSet<Member> Members {get;set;}
+        public virtual DbSet<User> Users {get;set;}
     }
 }
