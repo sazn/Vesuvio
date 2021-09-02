@@ -1,12 +1,10 @@
 ﻿$(() => {
-    //LoadRoasterData();
     var connection = new signalR.HubConnectionBuilder().withUrl("/signalrServer").build();
     connection.start();
     connection.on("LoadRosters", function (name) {
-        $("#tableBody").remove();       
+        //$("#tableBody").remove();       
         LoadRoasterData(name);   
     })
-    //LoadRoasterData(name);
 
     function LoadRoasterData(name) {
         debugger;
